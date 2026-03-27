@@ -12,8 +12,26 @@ Code of papaer: TSSFMamba: Temporal-Spatial-Spectral Fusion State Space Model   
 <tr>
 <td>
 
-Open Source Software is not about the code in the first place but the communications and community. People love good documentation and obvious workflows. If your software solves some problem, but nobody can figure out how to use it or, for example, how to create an effective bug report, there's something very bad going on. Did you hear about Readme Driven Development? Check out the awesome [article written by GitHub co-founder Tom Preston-Werner](https://tom.preston-werner.com/2010/08/23/readme-driven-development.html).
-There are many great README or issues templates available on GitHub, however, you have to find them yourself and combine different templates yourself. In addition, if you want extensive docs like CODE_OF_CONDUCT.md, CONTRIBUTING.md, SECURITY.md or even advanced GitHub features like a pull request template, additional labels, code scanning, and automatic issue/PR closing and locking you have to do much more work. Your time should be focused on creating something **amazing**. You shouldn't be doing the same tasks over and over like creating your GitHub project template from scratch. Follow the **don’t repeat yourself** principle. Use a template **and go create something amazing**!
+Dim moving target detection (DMTD) in hyperspectral image sequences (HSIS) aims to identify
+potential small moving anomalous targets with low contrast relative to the background of HSIS and
+has garnered substantial attention in various remote sensing photography and surveying applications.
+Recently, owing to their prominent nonlocal representations and linear complexity, Mamba-based
+approaches have drawn growing attention. Our study pioneers the integration of Mamba into
+DMTD task in HSIS, presenting TSSFMamba, which introduces a novel temporal-spatial-spectral
+fusion Mamba detection architecture that gives consideration to the advantages of lightweight and
+high precision for dim moving target detection. The overall network adopts multiscale encoder-
+decoder reconstruction learning architecture which consists of spatial-spectral-temporal Mamba block
+for long-range nonlocal feature fusion and temporal-spatial-spectral decoupled convolution block
+for lightweight local representation enhancement. Furthermore, a Haar discrete wavelet transform
+convolution module is designed to explicitly capture the discriminative frequency characteristics
+between targets and the background, thereby facilitating the effective suppression of anomalous
+targets during background reconstruction. To suppress false alarms caused by background clutter
+in various scenarios, a motion-consistency optical flow estimation module is introduced to perform
+motion optical flow estimation and model the motion difference representation between moving
+targets and background clutter. Extensive experiments on diverse DMTD datasets in both real
+scenes and simulated HSIS demonstrate that TSSFMamba achieves state-of-the-art detection accuracy
+while requiring the lowest parameter quantity and running time, confirming its superiority in both
+effectiveness and efficiency. The code can be available at http://github.com/Brpinenuts/TSSFMamba.
 
 
 
