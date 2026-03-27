@@ -4,7 +4,7 @@ Code of papaer: TSSFMamba: Temporal-Spatial-Spectral Fusion State Space Model   
 
 
 <img width="2350" height="1502" alt="flos" src="https://github.com/user-attachments/assets/0297f2c4-0e35-4cfc-b069-8db2e075e289" />
-[flos.pdf](https://github.com/user-attachments/files/26292779/flos.pdf)
+
 
 If this code or part of it is helpful to you, please cite the following paper.
 
