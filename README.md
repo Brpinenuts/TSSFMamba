@@ -1,5 +1,5 @@
 # TSSFMamba
-Code of papaer: TSSFMamba: Temporal-Spatial-Spectral Fusion State Space Model   for  Dim Moving  Target Detection in Hyperspectral Image Sequences
+Code of papaer: TSSFMamba: Temporal-Spatial-Spectral Fusion State Space Model   for  Dim Moving  Target Detection in Hyperspectral Image Sequences.
 The article is undergoing review. The complete code and data will be released after the article is accepted.
 
 
